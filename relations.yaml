@@ -8,16 +8,4 @@ spec:
   lifecycle: production
   owner: artist-relations-team
   system: artist-engagement-portal
-relations:
-  - type: ownedBy
-    targetRef: group:default/guests
-  - type: partOf
-    targetRef: system:default/examples
-  - type: providesApi
-    targetRef: api:default/example-grpc-api
-  dependsOn:
-    - resource:default/artists-db
-  dependencyOf:
-    - component:default/artist-web-lookup
-  providesApis:
-    - artist-api
+
