@@ -4,7 +4,8 @@ metadata:
   name: integration-dashboard
   description: Show all integrations
   annotations:
-    backstage.io/view-url: http://localhost:3000/integration
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: Rekha1908/Backstage
 spec:
   type: service
   lifecycle: production
