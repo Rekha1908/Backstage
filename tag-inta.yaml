@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: petstore@example.com
   definition:
-    $text: http://localhost:7007/api/integration/data
+    $url: http://localhost:7007/api/integration/data
