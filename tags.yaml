@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: ProviderApp-TestMSG-ConsumerApp
+  id: INT00010
+  pattern: Fire & Forget
+tags:
+  - Incomplete
+spec:
+  profile:
+    displayName: Jenny Doe
+    email: jenny-doe@example.com
+    picture: https://example.com/staff/jenny-with-party-hat.jpeg
+  memberOf:
+    - team-b
+    - employees
