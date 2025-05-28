@@ -1,22 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
-  name: artist-web
-  description: The place to be, for great artists
-  labels:
-    example.com/custom: custom_label_value
-  annotations:
-    example.com/service-discovery: artistweb
-    circleci.com/project-slug: github/example-org/artist-website
-  tags:
-    - java
-  links:
-    - url: http://localhost:7007/api/integration/data
-      title: Admin Dashboard
-      icon: dashboard
-      type: admin-dashboard
+  name: petstore
+  description: The Petstore API
 spec:
-  type: website
+  type: openapi
   lifecycle: production
-  owner: artist-relations-team
-  system: public-websites
+  owner: petstore@example.com
+  definition:
+    $text: http://localhost:7007/api/integration/data
