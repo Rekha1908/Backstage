@@ -6,6 +6,13 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: Rekha1908/Backstage
+relations:
+  - type: ownedBy
+    targetRef: group:default/guests
+  - type: partOf
+    targetRef: system:default/examples
+  - type: providesApi
+    targetRef: api:default/example-grpc-api
 spec:
   type: service
   lifecycle: production
