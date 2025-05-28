@@ -6,11 +6,10 @@ metadata:
   pattern: Fire & Forget
 tags:
   - Incomplete
-spec:
-  profile:
-    displayName: Jenny Doe
-    email: jenny-doe@example.com
-    picture: https://example.com/staff/jenny-with-party-hat.jpeg
-  memberOf:
-    - team-b
-    - employees
+ profile:
+    displayName: Infrastructure
+    email: infrastructure@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: ops
+  children: [backstage, other]
+  members: [jdoe]
