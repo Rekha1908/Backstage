@@ -7,5 +7,4 @@ spec:
   type: openapi
   lifecycle: production
   owner: petstore@example.com
-  definition:
-    $url: http://localhost:7007/api/integration/data
+ 
