@@ -7,7 +7,7 @@ metadata:
     example.com/custom: custom_label_value
   annotations:
     example.com/service-discovery: artistweb
-    circleci.com/project-slug: github/example-org/artist-website
+    circleci.com/project-slug: github/Backstage/blob/main/integration
   tags:
     - java
   links:
