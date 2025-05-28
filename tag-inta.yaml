@@ -1,10 +1,15 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 metadata:
-  name: petstore
-  description: The Petstore API
+  name: integration-dashboard
+  description: show all integrations
+links:
+  - url: http://localhost:3000/integration
+    title: Integration Catlog
+    icon: dashboard
+    type: admin-dashboard
 spec:
-  type: openapi
+  type: service
   lifecycle: production
-  owner: petstore@example.com
+  owner: Rekha
  
