@@ -2,14 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: integration-dashboard
-  description: show all integrations
-links:
-  - url: http://localhost:3000/integration
-    title: Integration Catlog
-    icon: dashboard
-    type: admin-dashboard
+  description: Show all integrations
+  annotations:
+    backstage.io/view-url: http://localhost:3000/integration
 spec:
   type: service
   lifecycle: production
   owner: Rekha
- 
