@@ -8,6 +8,9 @@ metadata:
     example.com/custom: custom_label_value
   annotations:
     github.com/project-slug: Rekha1908/backstage
+    backstage.io/source-location: url:https://github.com/Rekha1908/Backstage/blob/main/integration.yaml
+    backstage.io/edit-url: https://github.com/Rekha1908/Backstage/edit/main/integration.yaml
+    backstage.io /techdocs-ref: dir:.
 spec:
   type: website 
   owner: team-a
